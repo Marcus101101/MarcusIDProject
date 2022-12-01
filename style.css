@@ -226,7 +226,7 @@ about{
 }
 .accordion input[type="radio"]:checked + label + .contentc{
   max-height: 400px;
-  padding: 50px 50px 2900px;
+  padding: 50px 50px 3000px;
 }
 
 .accordion .contentd{
@@ -251,7 +251,7 @@ about{
 }
 .accordion input[type="radio"]:checked + label + .contente{
   max-height: 400px;
-  padding: 50px 50px 2000px;
+  padding: 50px 50px 2100px;
 }
 .bolded { font-weight: bold; }
 
@@ -272,8 +272,7 @@ about{
 }
 
 body{
-  background-image: url(image/wallpaper.jpg);
-  background-size: cover;
+  background-color: yellowgreen;
 }
 
 .div1{
@@ -371,7 +370,7 @@ h4{
 }
 .main{
 	width: 1200px;
-	max-width: 110%;
+	max-width: 100%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -484,56 +483,12 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
-.contact-me{
-	width: 100%;
-	height: 290px;
-	background: #191919;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-}
-.contact-me p{
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 25px;
-}
-.contact-me1{
-	width: 100%;
-	height: 290px;
-	background: #101010;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-}
-.contact-me1 p{
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 25px;
-}
-.contact-me .button-two{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 13px 30px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-.contact-me .button-two:hover{
-	background-color: transparent;
-	border: 2px solid #f9004d;
-	cursor: pointer;
-}
+
 footer{
 	position: relative;
 	width: 100%;
 	height: 400px;
-	background: #191919;
+	background: #101010;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
