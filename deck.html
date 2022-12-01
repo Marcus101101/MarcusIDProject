@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Deck</title>
+</head>
+<body>
+    
+        <header>
+            <div class ="logo" >ONE PIECE CARD GAME</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="Index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                    <li>
+                        <a href="Beginner.html" class="active">Beginner</a>
+                    </li>
+                    <li>
+                        <a href="Deck.html" >Deck</a>
+                    </li>
+                    <li>
+                        <a href="Meta.html" >Meta Report</a>
+                    </li>
+                    
+                    
+                </ul>
+            </nav>
+        </header>
+       <section>
+        <img src="image/zoro.jpg"  class="image";>
+        <p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
+            <span class="bolded"> Red Deck </span> A deck featuring character cards with the effect “Rush". Defeat your opponent with immediate attacks!
+          </P>
+       </section>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+
+    </script>
+</body>
+</html>
