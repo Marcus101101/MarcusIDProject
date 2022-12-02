@@ -4,6 +4,7 @@
 **Marcus101101/Marcus101101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
+display setting 100%
 
 - 🔭 I’m currently working on a webiste talking about One Piece Trading Card Game it will explain how the start game  and different type of card that needed and the basic rulling for the game itself 
 - 🌱 I’m currently learning ...
