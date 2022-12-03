@@ -272,7 +272,7 @@ about{
 }
 
 body{
-  background-color: yellowgreen;
+  background-color: #101010
 }
 
 .div1{
@@ -293,7 +293,7 @@ span{
 	color: aqua;
 }
 
-.btn{
+.btn1{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -303,7 +303,7 @@ span{
 	border-radius: 30px;
 	transition: transform .4s; 
 }
-.btn:hover{
+.btn1:hover{
 	transform: scale(1.2);
 }
 .contentx{
@@ -396,7 +396,7 @@ h4{
 	font-size: 16px;
 	margin-bottom: 40px;
 }
-button{
+.button{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -468,7 +468,7 @@ h5{
 	line-height: 27px;
 	margin-bottom: 25px;
 }
-.card .button{
+.card .but{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -478,7 +478,7 @@ h5{
 	border-radius: 30px;
 	transition: .4s; 
 }
-.card .button:hover{
+.card .but:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
@@ -685,25 +685,65 @@ footer p:nth-child(2){
   }
 }
 
-video {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	object-fit: cover;
-	transition: all 150ms linear;
-	z-index: 10;
+.main {
+  max-width: 1000px;
+  margin: auto;
 }
-.box1 {
-	opacity: 1;
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
 }
-.box2 {
-	opacity: 0;
+
+.row {
+  margin: 10px -16px;
 }
-.box3 {
-	opacity: 0;
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
 }
-.containerT {
-	width: 100%;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.5);
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display:block;
+}
+
+/* Style the buttons */
+.btn2 {
+  background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: 0.4s; 
+  position: relative; right: -500px;
+}
+
+.btn2:hover {
+  background-color: #ddd;
+}
+
+.btn2.active {
+  background-color: #666;
+  color: white;
 }

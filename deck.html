@@ -21,15 +21,13 @@
                     <li>
                         <a href="index.html" class="active">Home</a>
                     </li>
+                    
                     <li>
+                        <a href="explore.html" >Explore</a>
+                    </li>
+                    
                     <li>
                         <a href="beginner.html" class="active">Beginner</a>
-                    </li>
-                    <li>
-                        <a href="deck.html" >Deck</a>
-                    </li>
-                    <li>
-                        <a href="meta.html" >Meta Report</a>
                     </li>
                     
                     
@@ -37,13 +35,52 @@
             </nav>
         </header>
        <div>
-        <img src="image/zoro.jpg"  class="image";>
-        <p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
-            <span class="bolded"> Red Deck </span> A deck featuring character cards with the effect “Rush". Defeat your opponent with immediate attacks!
-          </P>
+       
+        <div id="myBtnContainer">
+          <button class="btn2 active2" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn2" onclick="filterSelection('red')"> Red</button>
+          <button class="btn2" onclick="filterSelection('green')"> Green</button>
+          <button class="btn2" onclick="filterSelection('blue')"> Blue</button>
+          <button class="btn2" onclick="filterSelection('purple')"> Purple</button>
+          <button class="btn2" onclick="filterSelection('black')"> Black</button>
+          <button class="btn2" onclick="filterSelection('mulitcolor')"> Mulitcolor</button>
+        
         </div>
      
+        <div class="row">
+            <div class="column red">
+              <div class="contentq">
+                <img src="image/zorolist.jpeg" alt="luffy" style="width:100%">
+                <h4>Zoro</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column red">
+              <div class="contentq">
+                <img src="image/zorolist.jpeg" alt="luffy" style="width:100%">
+                <h4>WB</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column red">
+              <div class="contentq">
+                <img src="image/zorolist.jpeg" alt="luffy" style="width:100%">
+                <h4>Luffy</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <hr>
+            <div class="column blue">
+              <div class="contentq">
+                <img src="image/leader croco.jpg" alt="Croco" style="width:10%">
+                <h4>CROCO</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            
+        </div>
        <script src="app.js">
+        
         
     </script>
 </body>
