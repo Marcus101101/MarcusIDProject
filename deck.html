@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style1.css">
     <title>Deck</title>
 </head>
 <body>
@@ -36,52 +37,205 @@
         </header>
        <div>
        
-        <div id="myBtnContainer">
-          <button class="btn2 active2" onclick="filterSelection('all')"> Show all</button>
-          <button class="btn2" onclick="filterSelection('red')"> Red</button>
-          <button class="btn2" onclick="filterSelection('green')"> Green</button>
-          <button class="btn2" onclick="filterSelection('blue')"> Blue</button>
-          <button class="btn2" onclick="filterSelection('purple')"> Purple</button>
-          <button class="btn2" onclick="filterSelection('black')"> Black</button>
-          <button class="btn2" onclick="filterSelection('mulitcolor')"> Mulitcolor</button>
+        <!-- Filterable Gallery -->
+        <ul class="gallery_tabs">
+          <li class="active" data-filter="all">All</li>
+          <li data-filter="red">Red</li>
+          <li data-filter="blue">Blue</li>
+          <li data-filter="green">Green</li>
+          <li data-filter="purple">Purple</li>
+          <li data-filter="black">Black</li>
         
+      </ul>
+
+      <div class="gallery_wrapper">
+          <div class="gallery_item red">
+              <img src="image/zorolist.jpeg">
+          </div>
+
+          <div class="gallery_item red">
+              <img src="image/zorolist2.jpeg">
+          </div>
+
+          <div class="gallery_item red">
+            <img src="image/zorolist3.jpeg">
+            <p>zoro</p>
         </div>
-     
-        <div class="row">
-            <div class="column red">
-              <div class="contentq">
-                <img src="image/zorolist.jpeg" alt="luffy" style="width:100%">
-                <h4>Zoro</h4>
-                <p>Lorem ipsum dolor..</p>
+
+
+        <div class="gallery_item red">
+          <img src="image/zorolist4.jpeg">
+      </div>
+
+      <div class="gallery_item red">
+        <img src="image/luffylist1.jpeg">
+    </div>
+
+    <div class="gallery_item red">
+            <img src="image/luffylist2.jpeg">
+    </div>
+    <div class="gallery_item red">
+      <img src="image/luffylist3.jpeg">
+    </div>
+
+    <div class="gallery_item red">
+      <img src="image/luffylist4.jpeg">
+  </div>
+
+  <div class="gallery_item red">
+    <img src="image/wblist.jpeg">
+  </div>
+
+  <div class="gallery_item red">
+    <img src="image/wblist2.jpeg">
+  </div>
+
+  <div class="gallery_item red">
+    <img src="image/wblist3.jpeg">
+  </div>
+
+  <div class="gallery_item red">
+    <img src="image/wblist4.jpeg">
+  </div>
+    
+  <div class="gallery_item blue">
+    <img src="image/ivankolist.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/ivankolist2.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/ivankolist3.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/ivankolist4.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/doffylist1.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/doffylist2.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/doffylist3.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/doffylist4.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/croclist.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/croclist2.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/croclist3.jpeg">
+  </div>
+  <div class="gallery_item blue">
+    <img src="image/croclist4.jpeg">
+  </div>
+  <div class="gallery_item green">
+    <img src="image/kinemonlist.jpeg">
+  </div>
+  <div class="gallery_item green">
+      <img src="image/kinemonlist2.jpeg">
+  </div>
+  <div class="gallery_item green">
+        <img src="image/kinemonlist3.jpeg">
+  </div>
+  <div class="gallery_item green">
+          <img src="image/kinemonlist4.jpeg">
+  </div>
+  <div class="gallery_item green">
+    <img src="image/kidlist.jpeg">
+</div>
+<div class="gallery_item green">
+  <img src="image/kidlist2.jpeg">
+</div>
+<div class="gallery_item green">
+  <img src="image/kidlist3.jpeg">
+</div>
+<div class="gallery_item green">
+  <img src="image/kidlist4.jpeg">
+</div>
+<div class="gallery_item purple">
+  <img src="image/kaidolist1.jpeg">
+</div>
+<div class="gallery_item purple">
+  <img src="image/kaidolist2.jpeg">
+</div>
+<div class="gallery_item purple">
+  <img src="image/kaidolist3.jpeg">
+</div>
+<div class="gallery_item purple">
+  <img src="image/kaidolist4.jpeg">
+</div>
+<div class="gallery_item black">
+  <img src="image/smoker1.jpeg">
+</div>
+<div class="gallery_item black">
+  <img src="image/smoker2.jpeg">
+</div>
+<div class="gallery_item black">
+  <img src="image/smoker3.jpeg">
+</div>
+<div class="gallery_item black">
+  <img src="image/smokerlist4.jpeg">
+</div>
+      <!-- Lightbox -->
+      <div class="lightbox">
+          <div class="lightbox_wrapper">
+              <div class="lightbox_content">
+                  <img src="" class="lightbox_img" alt="lightbox-img">
               </div>
-            </div>
-            <div class="column red">
-              <div class="contentq">
-                <img src="image/zorolist.jpeg" alt="luffy" style="width:100%">
-                <h4>WB</h4>
-                <p>Lorem ipsum dolor..</p>
-              </div>
-            </div>
-            <div class="column red">
-              <div class="contentq">
-                <img src="image/zorolist.jpeg" alt="luffy" style="width:100%">
-                <h4>Luffy</h4>
-                <p>Lorem ipsum dolor..</p>
-              </div>
-            </div>
-            <hr>
-            <div class="column blue">
-              <div class="contentq">
-                <img src="image/leader croco.jpg" alt="Croco" style="width:10%">
-                <h4>CROCO</h4>
-                <p>Lorem ipsum dolor..</p>
-              </div>
-            </div>
-            
-        </div>
-       <script src="app.js">
-        
-        
-    </script>
+          </div>
+          <div class="lightbox_close">
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--====== JavaScript ======-->
+<script src="./main.js"></script>
+</body>
+
+<footer class="footer">
+		
+  <div class="social">
+    <a href="https://www.facebook.com/onepiecetcgen/"> <img src="image/facebook.png" width="110%"> </a>
+    <a href="https://twitter.com/ONEPIECE_tcg_EN"><img src="image/twitter.png" width="100%"></a>
+    <a href="index.html"><img src="image/h icon.png" width="100%"></a>
+    <a href="Beginner.html"><img src="image/b.png" width="100%"></a>
+    <a href="Deck.html"><img src="image/d icon.png" width="100%"></a>
+    <a href="Meta.html"><img src="image/m icon.png" width="100%"></a>
+    
+  </div>
+  <p class="end">CopyRight By Marcus Ng </p>
+</footer>
+<script>
+try {
+fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+return true;
+}).catch(function(e) {
+var carbonScript = document.createElement("script");
+carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CE7DC2JW&placement=wwwcssscriptcom";
+carbonScript.id = "_carbonads_js";
+document.getElementById("carbon-block").appendChild(carbonScript);
+});
+} catch (error) {
+console.log(error);
+}
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LLWL5N9CSM"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LLWL5N9CSM');
+</script>
+</html>
+
 </body>
 </html>
